@@ -6,3 +6,4 @@ B _build/**
 PKG cstruct result
 PKG alcotest cohttp uri
 PKG lwt async core
+PKG tyre

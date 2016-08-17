@@ -92,6 +92,14 @@ Executable pure_benchmark
   Install:          false
   BuildDepends:     angstrom, core_bench, threads
 
+Executable compar_tyre
+  Path:             benchmarks
+  MainIs:           compar_tyre.ml
+  Build$:           flag(benchmarks)
+  CompiledObject:   best
+  Install:          false
+  BuildDepends:     angstrom, tyre, core_bench, threads
+
 Executable async_benchmark
   Path:             benchmarks
   MainIs:           async_benchmark.ml
